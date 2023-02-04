@@ -3,7 +3,7 @@ const convertToCelsius = function(deg) {
 };
 
 const convertToFahrenheit = function(deg) {
-  return Math.round(((5/9 * deg) + 32) * 10) / 10;
+  return Math.round(((9/5 * deg) + 32) * 10) / 10;
 };
 
 // Do not edit below this line
